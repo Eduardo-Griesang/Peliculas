@@ -1,0 +1,41 @@
+.logo{
+    max-width: 150px;
+}
+
+.navbar{
+    justify-content: center;
+}
+
+.navbar-brand {
+    margin-right: auto; /* Pushes the navbar brand (logo) to the left */
+}
+
+.navbar-collapse {
+    justify-content: center; /* Center the content within the navbar */
+}
+
+.navbar-nav {
+    text-align: center; /* Align the navbar links to center */
+}
+
+.nav-item{
+    font-size: 1.5em;
+}
+
+.phone-number{
+    display: flex;
+    justify-items: center;
+    font-size: 1.5em;
+    align-items: center;
+    gap: 1rem;
+}
+
+.phone-number a{
+    color: var(--black);
+}
+
+@media screen and (min-width: 990px) {
+    .phone-number{
+        margin-left: 1.5rem;
+    }
+}
