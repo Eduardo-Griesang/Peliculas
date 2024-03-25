@@ -1,0 +1,28 @@
+footer{
+    background-color: #f2f2f2;
+    padding: 1em 0.2em;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5em;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+@media screen and (min-width: 768px) {
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1em 1em;
+    }
+    .footer-text{
+        flex-direction: row;
+    }
+}

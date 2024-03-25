@@ -1,0 +1,55 @@
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em 1em;
+    gap: 1em;
+}
+
+.special{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.image{
+    width: 100%;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+@media screen and (min-width: 768px) {
+    .top{
+        flex-direction: row;
+    }
+    .bottom{
+        flex-direction: row;
+    }
+    .image{
+        max-width: 220px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .image{
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .image{
+        max-width: 330px;
+    }
+}

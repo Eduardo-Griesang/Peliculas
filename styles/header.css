@@ -7,15 +7,15 @@
 }
 
 .navbar-brand {
-    margin-right: auto; /* Pushes the navbar brand (logo) to the left */
+    margin-right: auto; 
 }
 
 .navbar-collapse {
-    justify-content: center; /* Center the content within the navbar */
+    justify-content: center; 
 }
 
 .navbar-nav {
-    text-align: center; /* Align the navbar links to center */
+    text-align: center; 
 }
 
 .nav-item{
