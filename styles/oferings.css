@@ -1,0 +1,37 @@
+.oferings-wrapper{
+    background: #545151;
+    display: flex;
+    color: var(--white);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 1em;
+    gap: 2em;
+    text-align: center;
+    width: 100%;
+}
+
+.oferings-wrapper h2{
+    font-size: 2.7em;
+    font-weight: 800;
+}
+
+.oferings{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2em;
+}
+
+.oferings-card{
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.oferings-card h3{
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.oferings-card span{
+    
+}

@@ -8,6 +8,16 @@
     height: 60vh;
 }
 
+.banner-arq{
+    position: relative;
+    background-image: url(../images/arquitetura.png);
+    background-position-y: 55%;
+    background-position-x: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
 .banner-text{
     position: absolute;
     top: 35%;
@@ -18,20 +28,62 @@
     width: 100%;
 }
 
+.banner-text-arq{
+    position: absolute;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    width: 100%;
+}
+
 .banner h1{
     color: var(--white);
     font-size: 3.5em;
+}
+
+.banner-arq h1{
+    color: var(--white);
+    font-size: 3.1em;
+    font-weight: 900;
+}
+
+.banner-arq span{
+    color: var(--white);
+    font-size: 1.5em;
+    width: 90%;
+}
+
+.banner-arq hr{
+    background-color: var(--red);
+    height: 2px;
+    width: 60%;
 }
 
 @media screen and (min-width: 425px) {
     .banner h1{
         font-size: 4.5em;
     }
+    .banner-arq h1{
+        font-size: 3.8em;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .banner h1{
         font-size: 5.5em;
+    }
+    .banner-arq h1{
+        font-size: 4.5em;
+    }
+    .banner-arq span{
+        font-size: 1.8em;
+        width: 60%;
+    }
+    .banner-arq hr{
+        width: 40%;
     }
 }
 
@@ -41,5 +93,11 @@
     }
     .banner h1{
         font-size: 6.5em;
+    }
+    .banner-text-arq{
+        top: 25%;
+    }
+    .banner-arq hr{
+        width: 20%;
     }
 }
