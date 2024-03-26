@@ -40,11 +40,23 @@
 }
 
 .banner h1{
+    animation: title 0.3s ease-in-out;
     color: var(--white);
     font-size: 3.5em;
 }
 
+@keyframes title {
+    0%{
+        transform: translateX(-150px);
+
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
 .banner-arq h1{
+    animation: title 0.3s ease-in-out;
     color: var(--white);
     font-size: 3.1em;
     font-weight: 900;
