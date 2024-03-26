@@ -6,6 +6,17 @@
     --light-gray: #5E6265;
 }
 
+body{
+    position: relative;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    width: 70px;
+}
+
 .button{
     color: var(--white);
     background-color: var(--red);
