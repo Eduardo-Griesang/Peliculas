@@ -1,7 +1,6 @@
-.oferings-wrapper{
-    background: #545151;
+.benefits-wrapper{
     display: flex;
-    color: var(--white);
+    color: var(--black);
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -11,46 +10,48 @@
     width: 100%;
 }
 
-.oferings-wrapper h2{
+.benefits-wrapper h2{
     font-size: 2.7em;
-    font-weight: 800;
+    font-weight: 900;
 }
 
-.oferings{
+.benefits{
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 2em;
 }
 
-.oferings-card{
+.benefits-card{
     font-size: 2em;
     margin-top: 1em;
 }
 
-.oferings-card h3{
+.benefits-card h3{
     font-weight: 700;
     font-size: 1.2em;
     margin-top: 1em;
 }
 
-.oferings-card-text{
+.benefits-card-text{
     display: flex;
     flex-direction: column;
     gap: 0.5em;
 }
 
-.oferings-card-text span{
+.benefits-card-text span{
+    color: var(--light-gray);
     font-size: 1.2rem;
 }
 
 @media screen and (min-width: 768px) {
-    .oferings{
+    .benefits{
         grid-template-columns: repeat(2, minmax(0, 2fr));
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .oferings{
+    .benefits{
         width: 70%;
+        gap: 3em;
     }
 }
