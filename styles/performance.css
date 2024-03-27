@@ -67,6 +67,11 @@
     margin-top: 1em;
 }
 
+.bold{
+    color: black;
+    font-weight: 700;
+}
+
 @media screen and (min-width: 425px) {
     .performance{
         padding: 3em 2em;
